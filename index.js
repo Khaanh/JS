@@ -1,3 +1,10 @@
-const myArr1 = [1, 3, 5, 6, 8, 9, 15];
-console.log(myArr1.indexOf(0));
-console.log(myArr1.indexOf(3));
+let myWork = [];
+
+for (let i = 0; i <= 10; i++) {
+	let obj = {
+		lesson: i,
+		stat: i % 2 == 0 ? true : false,
+	};
+	myWork.push(obj);
+}
+console.log(myWork);
